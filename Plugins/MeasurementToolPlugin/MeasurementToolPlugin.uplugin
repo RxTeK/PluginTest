@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"EngineVersion": "5.4",
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MeasurementToolPlugin",
+	"Description": "Ajoute un outil de mesure à l’éditeur",
+	"Category": "Editor",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MeasurementToolPlugin",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "InteractiveToolsFramework",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
